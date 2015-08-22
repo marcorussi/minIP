@@ -12,3 +12,6 @@ How to use the demo application:
  - start a Ping request from your PC to the board, use a command like: $ ping -I eth0 10.42.0.10.
 
 For an example of use please have a look at minUDP project.
+
+Known issues:
+ - Ethernet layer remains stacked until an Ethernet cable is connected. It is necessary to add a timeout in order to exit the related infinite loop in eth.c file.
