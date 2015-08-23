@@ -1,5 +1,5 @@
 # minIP
-A minimal IP layer compliant to RFC791 with ARP and ICMP layers (Ping service).
+An IP layer compliant to RFC791 with ARP and ICMP layers (Ping service).
 
 This IP stack is implemented on top of my Ethernet driver for PIC32. A demo application has been developed on a PIC32 Ethernet Starter Kit. 
 
