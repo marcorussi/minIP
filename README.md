@@ -1,6 +1,6 @@
 # minIP
 An IP layer compliant to RFC791 with ARP and ICMP layers (Ping service).
-This demo project runs over PIC32 Ethernet Starter Kit connected to my Ubuntu laptop through an Ethernet switch.
+This demo project runs over PIC32 Ethernet Starter Kit and has been tested with an Ubuntu laptop through an Ethernet switch.
 
 This IP stack is implemented on top of my Ethernet driver for PIC32.
 
